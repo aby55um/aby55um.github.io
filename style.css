@@ -1,0 +1,99 @@
+/*The body of the html file*/
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: rgb(37,35,35);
+
+    background: rgb(37, 35, 35);
+}
+
+/*A fixed height and length background element for aesthetic purposes*/
+#background {
+    position: absolute;
+    z-index: -1;
+
+    height: 30vh;
+    width: 100vw;
+
+    margin-top: 0px;
+
+    background-image: -webkit-linear-gradient(black,rgb(37,35,35));
+}
+
+/*Box for the main menu that contains the options*/
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 80vh;
+    width: 70vw;
+
+    margin-top: 10vh;
+    margin-left: 10vw;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/*The border properties of the type1 box*/
+.standardbox {
+    border-radius: 8px;
+    background-color: rgb(44, 42, 42);
+}
+
+.basecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 15vw;
+    min-height: 50px;
+    min-width: 150px;
+
+    border-radius: 8px;
+    background-color: rgb(24, 23, 23);
+
+    /*text-align: center;*/
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    font-size: calc(15px + 1.5vw);
+    
+    color: rgb(167, 160, 160);
+}
+
+.basecard:hover {
+    box-shadow: 2px 2px rgb(167, 160, 160);;
+}
+
+/*All the properties of the type2 box*/
+.secondbox {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 20vh;
+    width: 80vw;
+    /*min-width: 200px;*/
+
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: white;*/
+}
+
+hr {
+    width: 70vw;
+    color: rgb(167, 160, 160);
+}
