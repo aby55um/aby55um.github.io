@@ -31,6 +31,7 @@ body {
     align-items: center;
 
     height: 80vh;
+    /*min-height: 900px;*/
     width: 70vw;
 
     margin-top: 10vh;
@@ -40,6 +41,11 @@ body {
     padding-bottom: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+#second {
+    flex-shrink: 8;
+    max-height: 200px;
 }
 
 /*The border properties of the type1 box*/
@@ -64,6 +70,8 @@ body {
     /*text-align: center;*/
     margin-left: 1vw;
     margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 
     font-size: calc(15px + 1.5vw);
     
