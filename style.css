@@ -1,5 +1,7 @@
 /*The body of the html file*/
 body {
+    cursor: default;
+
     margin: 0px;
     padding: 0px;
     
@@ -27,20 +29,24 @@ body {
 .mainbox {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     align-items: center;
 
-    height: 80vh;
+    height: 90vh;
     /*min-height: 900px;*/
     width: 70vw;
 
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: 10vw;
 
     /*padding-top: 5vh;*/
-    padding-bottom: 5vh;
+    /*padding-bottom: 5vh;*/
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+#firstmain {
+    margin-left: 3vw;
 }
 
 #second {
@@ -54,12 +60,59 @@ body {
     background-color: rgb(44, 42, 42);
 }
 
+.gobutton {
+    position: absolute;
+
+    margin-top: 11vh;
+    margin-left: 86.5vw;
+
+    height: 10vh;
+    width: 10vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lilita One', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif; 
+    font-size: calc(15px + 1.5vw);
+    color: rgb(167, 160, 160);
+}
+
+#secondmenu {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resultbutton {
+    position: absolute;
+
+    margin-top: 30vh;
+    margin-left: 85.5vw;
+
+    height: 60vh;
+    width: 12vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lilita One', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif; 
+    font-size: calc(15px + 1.5vw);
+    color: rgb(167, 160, 160);
+}
+
 .basecard {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 10vh;
+    /*height: 10vh;*/
+    height: 5vh;
     width: 15vw;
     min-height: 50px;
     min-width: 150px;
@@ -73,13 +126,23 @@ body {
     margin-top: 1vw;
     margin-bottom: 1vw;
 
-    font-size: calc(15px + 1.5vw);
-    
+    font-family: 'Lilita One', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif;  
+    font-size: calc(5px + 1.5vw);
     color: rgb(167, 160, 160);
 }
 
-.basecard:hover {
+.basecard:hover, .gobutton:hover {
     box-shadow: 2px 2px rgb(167, 160, 160);;
+}
+
+.clicked {
+    /*color: rgb(161, 161, 86);*/
+    /*color: rgb(99, 173, 194);*/
+    /*box-shadow: 2px 2px rgb(99, 173, 194);*/
+    background-color: black;
+    color: white;
 }
 
 /*All the properties of the type2 box*/
@@ -94,6 +157,8 @@ body {
 
     height: 20vh;
     width: 80vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
     /*min-width: 200px;*/
 
     /*border-style: solid;
@@ -101,9 +166,13 @@ body {
     border-color: white;*/
 }
 
-/*#mid {
-    
-}*/
+#mid {
+    margin-bottom: 5vh;   
+}
+
+#last {
+    margin-bottom: 5vh;
+}
 
 hr {
     width: 70vw;
@@ -113,3 +182,4 @@ hr {
 a {
     text-decoration: none;
 }
+
