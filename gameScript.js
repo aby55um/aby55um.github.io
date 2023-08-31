@@ -147,8 +147,294 @@ hsk1_lesson10 = {
 }
 
 hsk1_lesson11 = {
-    
+    "now": ["现在","xiànzài"],
+    "o'clock": ["点","diǎn"],
+    "minute": ["分","fēn"],
+    "noon": ["中午","zhōngwǔ"],
+    "to eat a meal": ["吃饭","chī fàn"],
+    "time, moment": ["时候","shíhou"],
+    "to come/go back/return": ["回","huí"],
+    "we, us": ["我们","wǒmen"],
+    "film, movie": ["电影","diànyǐng"],
+    "to live/stay": ["住","zhù"],
+    "before/earlier": ["前","qián"],
 }
+
+hsk1_lesson12 = {
+    "weather": ["天气","tiānqì"],
+    "how": ["怎么样","zěnmeyàng"],
+    "too, excessively": ["太","tài"],
+    "hot": ["热","rè"],
+    "cold": ["冷","lěng"],
+    "to rain": ["下雨","xiàyǔ"],
+    "miss, young lady": ["小姐","xiǎojiě"],
+    "to come": ["来","lái"],
+    "body": ["身体","shēntǐ"],
+    "to like, to love": ["爱","ài"],
+    "m. some, a few": ["些","xiē"],
+    "fruit": ["水果","shuǐguǒ"],
+    "water": ["水","shuǐ"],
+}
+
+hsk1_lesson13 = {
+    "hello, hey": ["喂","wèi"],
+    "also, too": ["也","yě"],
+    "to study/learn": ["学习","xuéxí"],
+    "morning, before noon": ["上午","shàngwǔ"],
+    "to sleep": ["睡觉","shuìjiào"],
+    "television": ["电视","diànshì"],
+    "to like, to be fond of": ["喜欢","xǐhuan"],
+    "prep. to": ["给","gěi"],
+    "to make a phone call": ["打电话","dǎ diànhuà"],
+    "part. suggestion/request/command": ["吧","ba"],
+}
+
+hsk1_lesson14 = {
+    "thing/stuff": ["东西","dōngxi"],
+    "m. a few/little": ["一点儿","yìdiǎnr"],
+    "apple": ["苹果","píngguǒ"],
+    "to see": ["看见","kànjiàn"],
+    "Mr/sir": ["先生","xiānsheng"],
+    "to drive": ["开","kāi"],
+    "car, vehicle": ["车","chē"],
+    "to come back": ["回来","huílai"],
+    "minute": ["分钟","fēnzhōng"],
+    "after, afterwards, later": ["后","hòu"],
+    "clothes": ["衣服","yīfu"],
+    "beautiful": ["漂亮","piàoliang"],
+    "part. confirmation": ["啊","a"],
+    "little/few": ["少","shǎo"],
+    "these": ["这些","zhèxiē"],
+    "both/all": ["都","dōu "],
+}
+
+hsk1_lesson15 = {
+    "to meet/know": ["认识","rènshi"],
+    "year": ["年","nián"],
+    "college/university": ["大学","dàxué"],
+    "hotel/restaurant": ["饭店","fàndiàn"],
+    "taxi, cab": ["出租车","chūzūchē"],
+    "together": ["一起","yìqǐ"],
+    "glad/happy": ["高兴","gāoxìng"],
+    "to listen": ["听","tīng"],
+    "airplane": ["飞机","fēijī"],
+}
+
+
+hsk2_lesson1 = {
+    "to travel": ["旅游","lǚyóu"],
+    "to think/feel": ["觉得","juéde"],
+    "most": ["最","zuì"],
+    "why": ["为什么","wèi shénme"],
+    "also, too": ["也","yě"],
+    "sport, to work out": ["运动","yùndòng"],
+    "to play football": ["踢足球","tīzúqiú"],
+    "together": ["一起","yìqǐ"],
+    "to want to/would like to": ["要","yào"],
+    "new": ["新","xīn"],
+    "it": ["它","tā"],
+    "eye": ["眼睛","yǎnjing"],
+}
+
+hsk2_lesson2 = {
+    "to be sick": ["生病","shēngbìng"],
+    "every, each": ["每","měi"],
+    "morning": ["早上","zǎoshang"],
+    "to run/jog": ["跑步","pǎobù"],
+    "to get up": ["起床","qǐ chuáng"],
+    "medicine": ["药","yào"],
+    "body": ["身体","shēntǐ"],
+    "to come/go out": ["出","chū"],
+    "tall": ["高","gāo"],
+    "meter": ["米","mǐ"],
+    "to know": ["知道","zhīdào"],
+    "to have a rest": ["休息","xiūxi"],
+    "busy": ["忙","máng"],
+    "time": ["时间","shíjiān"],
+}
+
+hsk2_lesson3 = {
+    "watch": ["手表","shǒubiǎo"],
+    "thousand": ["千","qiān"],
+    "newspaper": ["报纸","bàozhǐ"],
+    "to send/deliver": ["送","sòng"],
+    "num.-m. indicates attempt": ["一下","yíxià"],
+    "milk": ["牛奶","niúnǎi"],
+    "room": ["房间","fángjiān"],
+    "husband": ["丈夫","zhàngfu"],
+    "beside": ["旁边","pángbiān"],
+    "really": ["真","zhēn"],
+    "pink": ["粉色","fěnsè"],
+    "color": ["颜色","yánsè"],
+    "left side": ["左边","zuǒbian"],
+    "red": ["红色","hóng"],
+}
+
+hsk2_lesson4 = {
+    "birthday": ["生日","shēngrì"],
+    "happy": ["快乐","kuàilè"],
+    "to, for": ["给","gěi"],
+    "to receive/take/accept": ["接","jiē"],
+    "evening, night": ["晚上","wǎnshang"],
+    "to ask": ["问","wèn"],
+    "very, extremely": ["非常","fēicháng"],
+    "to begin/start": ["开始","kāishǐ"],
+    "already": ["已经","yǐjīng"],
+    "long": ["长","cháng"],
+    "two": ["两","liǎng"],
+    "to help": ["帮","bāng"],
+    "to introduce/recommend": ["介绍","jièshào"],
+}
+
+hsk2_lesson5 = {
+    "outside": ["外面","wàimiàn"],
+    "to intend/plan": ["准备","zhǔnbèi"],
+    "adv. conclusion/resolution": ["就","jiù"],
+    "fish": ["鱼","yú"],
+    "part. suggestion/request/command": ["吧","ba"],
+    "m. clothes": ["件","jiàn"],
+    "possibly/fairly/rather": ["还","hái"],
+    "not bad": ["可以","kěyǐ"],
+    "pretty good": ["不错","búcuò"],
+    "test, exam": ["考试","kǎoshì"],
+    "meaning": ["意思","yìsi"],
+    "coffee": ["咖啡","kāfēi"],
+    "prep. to/for": ["对","duì"],
+    "afterwards/later": ["以后","yǐhòu"],
+}
+
+hsk2_lesson6 = {
+    "door, gate": ["门","mén"],
+    "outer, outside": ["外","wài"],
+    "bike": ["自行车","zìxíngchē"],
+    "mutton": ["羊肉","yángròu"],
+    "delicious": ["好吃","hǎochī"],
+    "noodles": ["面条","miàntiáo"],
+    "to play basketball": ["打篮球","dǎlánqiú"],
+    "because/since": ["因为","yīnwèi"],
+    "so/therefore": ["所以","suǒyǐ"],
+    "to swim": ["游泳","yòuyǒng"],
+    "often/frequently": ["经常","jīngcháng"],
+    "kilogram": ["公斤","gōngjīn"],
+    "elder sister": ["姐姐","jiějie"],
+}
+
+hsk2_lesson7 = {
+    "classroom": ["教室","jiàoshì"],
+    "airport": ["机场","jīchǎng"],
+    "road/path/way": ["鲁","lù"],
+    "to be away from": ["离","lí"],
+    "company, firm": ["公司","gōngsī"],
+    "far, distant": ["元","yuǎn"],
+    "bus": ["公共汽车","gōnggòng qìchē"],
+    "hour": ["小时","xiǎoshí"],
+    "slow": ["慢","màn"],
+    "quick/fast": ["快","kuài"],
+    "to pass (time)": ["过","guò"],
+    "to walk": ["走","zǒu"],
+    "to arrive/reach": ["到","dào"],
+}
+
+hsk2_lesson8 = {
+    "again, once more": ["再","zài"],
+    "to let/allow": ["让","ràng"],
+    "to tell": ["告诉","gàosù"],
+    "to wait/await": ["等","děng"],
+    "to look for": ["找","zhǎo"],
+    "thing/matter/affair ": ["事情","shìqing"],
+    "attendant, waiter/waitress": ["服务员","fúwùyuàn"],
+    "white": ["白","bái"],
+    "black": ["黑","hēi"],
+    "expensive": ["贵","guì"],
+}
+
+hsk2_lesson9 = {
+    "wrong, incorrect": ["错","cuò"],
+    "from": ["从","cóng"],
+    "to dance": ["跳舞","tiào wǔ"],
+    "first": ["第一","dì yī"],
+    "to hope/wish": ["希望","xīwàng"],
+    "question, problem": ["问题","wèntí"],
+    "to welcome": ["欢迎","huānyíng"],
+    "to work/do a job": ["上班","shàng bān"],
+    "to understand/know": ["懂","dǒng"],
+    "to finish/end": ["完","wán"],
+    "question/problem": ["题","tí"],
+}
+
+hsk2_lesson10 = {
+    "class/lesson": ["课","kè"],
+    "to help/assis/aid": ["帮助","bāngzhù"],
+    "don't": ["别","bié"],
+    "elder brother": ["哥哥","gēge"],
+    "egg": ["鸡蛋","jīdàn"],
+    "watermelon": ["西瓜","xīguā"],
+    "in the process of": ["正在","zhèngzài"],
+    "cell phone": ["手机","shǒujī"],
+    "to wash/bathe": ["洗","xǐ"],
+}
+
+hsk2_lesson11 = {
+    "to sing": ["唱歌","chàng gē"],
+    "man/male": ["男","nán"],
+    "woman/female": ["女","nǚ"],
+    "child/kid": ["孩子","háizi"],
+    "right side": ["右边","yòubian"],
+    "than": ["比","bǐ"],
+    "cheap": ["便宜","piányi"],
+    "to speak/say/talk": ["说话","shuō huà"],
+    "maybe/perhaps/probably": ["可能","kěnéng"],
+    "last year": ["去年","qùnián"],
+    "family name/surname": ["姓","xìng"],
+}
+
+hsk2_lesson12 = {
+    "part. complement of result": ["得","de"],
+    "wife": ["妻子","qīzi"],
+    "snow": ["雪","xuě"],
+    "zero": ["零","líng"],
+    "degree": ["度","dù"],
+    "to wear/put on": ["穿","chuān"],
+    "to enter, to come/go in": ["进","jìn"],
+    "younger brother": ["弟弟","dìdi"],
+    "near, close": ["近","jìn"],
+}
+
+hsk2_lesson13 = {
+    "part. indicates state": ["着","zhe"],
+    "hand": ["手","shǒu"],
+    "to hold/take/bring": ["拿","ná"],
+    "pencil": ["铅笔","qiānbǐ"],
+    "class/grade/team": ["班","bān"],
+    "to grow/develop": ["长","zhǎng"],
+    "to smile/laugh": ["笑","xiào"],
+    "hotel": ["宾馆","bīnguǎn"],
+    "straight/all along": ["一直","yìzhí"],
+    "to, towards": ["往","wǎng"],
+    "crossing/crossroads": ["路口","lùkǒu"],
+}
+
+hsk2_lesson14 = {
+    "interesting, fun": ["有意思","yǒu yìsi"],
+    "but/still/yet": ["但是","dànshì"],
+    "althogh, though": ["虽然","suīrán"],
+    "m. time": ["次","cì"],
+    "to play, to have fun": ["玩儿","wánr"],
+    "sunny/clear": ["晴","qíng"],
+    "hundred": ["百","bǎi"],
+}
+
+hsk2_lesson15 = {
+    "day/date": ["日","rì"],
+    "New Year": ["新年","xīnnián"],
+    "ticket": ["票","piào"],
+    "railway station": ["火车站","huǒchēzhàn"],
+    "all, everybody": ["大家","dàjiā"],
+    "adv. more": ["更","gèng"],
+    "younger sister": ["妹妹","mèimei"],
+    "cloudy": ["阴","yīn"],
+}
+
 
 hsk3_lesson1 = {
     "weekend": ["周末", "zhōumò"],
