@@ -46,7 +46,7 @@ hsk1_lesson4 = {
     "attribute particle": ["的", "de"],
     "Chinese (language)": ["汉语", "hànyǔ"],
     "which": ["哪", "nǎ"],
-    "country, nation": ["过", "guó"],
+    "country, nation": ["国", "guó"],
     "particle at end of question": ["呢", "ne"],
     "he, him": ["他", "tā"],
     "classmate": ["同学", "tóngxué"],
