@@ -322,7 +322,7 @@ hsk2_lesson6 = {
 hsk2_lesson7 = {
     "classroom": ["教室","jiàoshì"],
     "airport": ["机场","jīchǎng"],
-    "road/path/way": ["鲁","lù"],
+    "road/path/way": ["路","lù"],
     "to be away from": ["离","lí"],
     "company, firm": ["公司","gōngsī"],
     "far, distant": ["元","yuǎn"],
