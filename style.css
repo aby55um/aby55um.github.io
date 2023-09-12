@@ -1,185 +1,96 @@
-/*The body of the html file*/
-body {
-    cursor: default;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+Linear+B&family=Nunito+Sans:wght@500&family=Signika:wght@500&display=swap');
 
-    margin: 0px;
-    padding: 0px;
-    
-    border-width: 1px;
-    border-style: solid;
-    border-bottom-color: rgb(37,35,35);
+nav {
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    width: 87vw;
 
-    background: rgb(37, 35, 35);
-}
+    margin-top: 0vh;
+    margin-left: -3vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
 
-/*A fixed height and length background element for aesthetic purposes*/
-#background {
-    position: absolute;
-    z-index: -1;
-
-    height: 30vh;
-    width: 100vw;
-
-    margin-top: 0px;
-
-    background-image: -webkit-linear-gradient(black,rgb(37,35,35));
-}
-
-/*Box for the main menu that contains the options*/
-.mainbox {
-    display: flex;
-    flex-direction: column;
-    /*justify-content: space-evenly;*/
-    align-items: center;
-
-    height: 90vh;
-    /*min-height: 900px;*/
-    width: 70vw;
-
-    margin-top: 5vh;
-    margin-left: 10vw;
-
-    /*padding-top: 5vh;*/
-    /*padding-bottom: 5vh;*/
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-#firstmain {
-    margin-left: 3vw;
-}
-
-#second {
-    flex-shrink: 8;
-    max-height: 200px;
-}
-
-/*The border properties of the type1 box*/
-.standardbox {
-    border-radius: 8px;
-    background-color: rgb(44, 42, 42);
-}
-
-.gobutton {
-    position: absolute;
-
-    margin-top: 11vh;
-    margin-left: 86.5vw;
-
-    height: 10vh;
-    width: 10vw;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: 'Lilita One', cursive;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Signika', sans-serif; 
-    font-size: calc(15px + 1.5vw);
-    color: rgb(167, 160, 160);
-}
-
-#secondmenu {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.resultbutton {
-    position: absolute;
-
-    margin-top: 30vh;
-    margin-left: 85.5vw;
-
-    height: 60vh;
-    width: 12vw;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    font-family: 'Lilita One', cursive;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Signika', sans-serif; 
-    font-size: calc(15px + 1.5vw);
-    color: rgb(167, 160, 160);
-}
-
-.basecard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /*height: 10vh;*/
-    height: 5vh;
-    width: 15vw;
-    min-height: 50px;
-    min-width: 150px;
-
-    border-radius: 8px;
-    background-color: rgb(24, 23, 23);
-
-    /*text-align: center;*/
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-
-    font-family: 'Lilita One', cursive;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Signika', sans-serif;  
-    font-size: calc(5px + 1.5vw);
-    color: rgb(167, 160, 160);
-}
-
-.basecard:hover, .gobutton:hover {
-    box-shadow: 2px 2px rgb(167, 160, 160);;
-}
-
-.clicked {
-    /*color: rgb(161, 161, 86);*/
-    /*color: rgb(99, 173, 194);*/
-    /*box-shadow: 2px 2px rgb(99, 173, 194);*/
-    background-color: black;
-    color: white;
-}
-
-/*All the properties of the type2 box*/
-.secondbox {
-    flex-grow: 1;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-    height: 20vh;
-    width: 80vw;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    /*min-width: 200px;*/
-
-    /*border-style: solid;
-    border-width: 1px;
-    border-color: white;*/
-}
-
-#mid {
-    margin-bottom: 5vh;   
-}
-
-#last {
-    margin-bottom: 5vh;
-}
-
-hr {
-    width: 70vw;
-    color: rgb(167, 160, 160);
+    background-color: #333333;
 }
 
 a {
-    text-decoration: none;
+    float: right;
+    margin-top: 2.5vh;
+    margin-right: 3vw;
+
+    color: #ff0099;
+    font-size: 3vh;
 }
 
+#pic {
+    margin-top: 2vh;
+}
+
+div {
+    font-family: Consolas;
+
+    /*font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif;*/
+}
+
+#name {
+    margin-top: 20vh;
+    font-size: 8vh;
+}
+
+#title {
+    margin-top: 2vh;
+
+    font-size: 2.5vw;
+    color: #ff0099;
+    font-weight: bold;
+
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+#description {
+    margin-top: 3vh;
+    font-size: 1.5vw;
+}
+
+#main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+hr {
+    margin-top: 14vh;
+    
+    width: 12vw;
+    height: 2px;
+
+    border: none;
+    background: repeating-linear-gradient(90deg, black, black 2vw, transparent 2vw, transparent 4vw);
+}
+
+#wiki_title {
+    text-align: center;
+    margin-top: 12vh;
+
+    font-size: 2.5vw;
+    font-weight: bold;
+
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.wiki_subtitle {
+    margin-top: 4vh;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.wiki_text {
+    margin-top: 2vh;
+    font-size: 1.3vw;
+}
