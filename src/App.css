@@ -40,12 +40,39 @@ body {
   height: 100vh;
   width: 250px;
   padding: 15px 2em;
-  border-right: 1px solid darkgray;
+  border-right: 1px solid var(--line-clr);
 }
 
-li {
-  list-style-type: none;
+#sidebar li {
+  list-style: none;
 }
+
+#sidebar ul li.active a{
+  color: var(--accent-clr);
+}
+
+#sidebar a, #sidebar .dropdown-btn, #sidebar .logo{
+  border-radius: .5em;
+  padding: .85em;
+  text-decoration: none;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.dropdown-btn{
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+
+
+
 
 .App {
   text-align: center;
