@@ -47,11 +47,11 @@ body {
   list-style: none;
 }
 
-#sidebar ul li.active a{
+#sidebar ul li.active{
   color: var(--accent-clr);
 }
 
-#sidebar a, #sidebar .dropdown-btn, #sidebar .logo{
+#sidebar a, #sidebar .dropdown-btn, #sidebar .logo #news{
   border-radius: .5em;
   padding: .85em;
   text-decoration: none;

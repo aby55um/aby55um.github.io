@@ -50,12 +50,12 @@ function App() {
         </nav>
 
         <main>
-          <div className="container">
+          <div className="news">
             <h1>Leaked Black Basta Ransomware chat logs.</h1>
             <p>Source: https://thehackernews.com/2025/02/leaked-black-basta-chat-logs-reveal.html</p>
             <p>Feb 26, 2025</p>
           </div>
-          <div className="container">
+          <div className="news">
             <h1>'Silver Fox' APT Skirts Windows Blocklist in BYOVD Attack</h1>
             <p>Source: https://www.darkreading.com/cyber-risk/silver-fox-byovd-attack-windows-blocklist</p>
             <p>Feb 26, 2025</p>
