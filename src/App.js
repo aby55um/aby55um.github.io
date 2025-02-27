@@ -1,5 +1,5 @@
 import './App.css';
-//import { Router, Link } from "@react/router"
+import skull from './skull.svg';
 import { Link } from "react-router";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
         <nav id="sidebar">
           <ul>
-            <li><Link to="/">News</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/Resources.js">Resources</Link></li>
               {/* <ul>
                   <li>https://www.activecountermeasures.com </li>
