@@ -51,7 +51,7 @@ body {
   color: var(--accent-clr);
 }
 
-#sidebar a, #sidebar .dropdown-btn, #sidebar .logo #news{
+#sidebar a, #sidebar .dropdown-btn, #sidebar .logo, #news{
   border-radius: .5em;
   padding: .85em;
   text-decoration: none;
