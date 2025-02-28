@@ -38,7 +38,7 @@ body {
 #sidebar {
   box-sizing: border-box;
   height: 100vh;
-  width: 250px;
+  width: 200px;
   padding: 15px 2em;
   border-right: 1px solid var(--line-clr);
 }
@@ -51,7 +51,11 @@ body {
   color: var(--accent-clr);
 }
 
-#sidebar a, #sidebar .dropdown-btn, #sidebar .logo, #news{
+.intro {
+  height: 150px;
+}
+
+#sidebar a, #sidebar .dropdown-btn, #sidebar .logo {
   border-radius: .5em;
   padding: .85em;
   text-decoration: none;
@@ -61,7 +65,7 @@ body {
   gap: 1em;
 }
 
-.dropdown-btn{
+.dropdown-btn {
   width: 100%;
   text-align: left;
   background: none;
@@ -70,7 +74,25 @@ body {
   cursor: pointer;
 }
 
+.news {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+  padding: 15px;
 
+  border-radius: .5em;
+  align-itmems: center;
+  border-width: 1px solid;
+  border-style: solid;
+  border-color: var(--line-clr);
+
+  width: 50 vw;
+}
+
+.news h1 {
+  font-size: calc(10px + 2vmin);
+}
 
 
 

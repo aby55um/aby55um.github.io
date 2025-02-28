@@ -50,6 +50,9 @@ function App() {
         </nav>
 
         <main>
+          <div className="intro">
+            <p>Leaks, CVEs, Attacks, Announcements</p>
+          </div>
           <div className="news">
             <h1>Leaked Black Basta Ransomware chat logs.</h1>
             <p>Source: https://thehackernews.com/2025/02/leaked-black-basta-chat-logs-reveal.html</p>
